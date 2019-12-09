@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Page Layout</title>
+		<style>
+			nav {
+			background-color: rgb(48,48,48);
+			display: block;
+			overflow: hidden;
+			}
+			.a { 
+    		margin-right: 15%;   
+			display: block;
+			list-style: none;
+			}
+			.b {
+			list-style-type: none;
+			margin-bottom: 4%;
+			margin-top: -5%;
+			display:inline;
+			display: block;
+			padding: 15px;
+			float: right;
+			background-color: black;
+			}
+			h2.logo { 
+			display:block;
+			font-size:35px;
+			margin-left: 15.5%; 
+			margin-bottom: 0;
+    		padding-bottom: 0;
+    		color: lightgray;
+			}
+			#p1 { 
+			display: block;
+			font-size: 15px;
+			margin-left: 15.5%;
+			padding-top: 0;
+    		margin-top: 0;
+    		color: lightgray;
+			}
+			a:link { 
+			text-decoration: none;
+    		color: gray; 
+			}
+			a:hover {
+			text-decoration: none;
+			color: orange;
+			}
+			.c { 
+			width: 960px;
+			height: 360px;
+			background-color: rgb(48,48,48);
+			margin:50px 0 0 180px;
+			}
+			.d {
+			display: block;
+			margin-right:185px;
+			list-style-type: none;
+			}
+			.e {
+			display: block;
+			display: inline;
+			padding: 19px;
+			float: right;
+			font-size:14px; 
+			}
+			.f {
+			margin-right: 35px;
+			display: inline-block;
+			background-color: rgb(48,48,48);
+			width: 290px;
+			height: 180px;
+			margin-top: 50px;
+			margin-bottom: 25px;
+			border-style: solid;
+			outline-color: lightgray;
+			outline-width: 1px;
+			outline-style: solid;
+			border-color: white;
+			border-width: 2px;
+			border-spacing: 1px;
+			}
+			.g {
+			margin-left: 185px;
+			}
+			.d .e::before { 
+			background-color: black;
+    		content: "";
+    		display: inline-block;
+    		height: 32px;
+    		width: 32px;
+    		vertical-align: middle;
+			}	
+			.i {
+			margin-top: 25px;
+			display: inline-block;
+			vertical-align: middle;
+			}
+			.h { 
+			margin-left: 185px;
+			width:180px;
+			height: 150px;
+			background-color: rgb(48,48,48);
+			display: block;
+			margin-top: 30px;
+			border-style: solid;
+			outline-color: lightgray;
+			outline-width: 1px;
+			outline-style: solid;
+			border-color: white;
+			border-width: 2px;
+			border-spacing: 1px;
+			}
+			.j {
+			padding: 15px 25px;
+			}
+			.k {
+			line-height: 9px;
+			padding-top: 15px;
+			}
+			ul.l { 
+			list-style-position: inside;
+			}
+			li.m {
+			color:orange;
+			font-size: 16px;
+			letter-spacing: -1px;
+			}
+			.footer {
+			width: 100%;
+			position: relative;
+			bottom:0;
+			color: lightgray;
+			display: inline-block;
+			background-color: rgb(48,48,48);
+			overflow: hidden;
+			vertical-align: middle;
+			margin-top: 25px;
+			}
+			#h01 {
+			display: block;
+			text-align: center;
+			}
+			#h02 {
+			display: block;
+			margin-bottom: 25px;
+			margin-left:71%;
+			}
+			#a01 { 
+			display: block;
+			margin-left: 67%;
+			margin-bottom: 15px;
+			line-height: 1px;
+			}
+			#h03 {
+			margin-left: 30px;
+			padding-bottom: 10px;
+			}
+			#p01 {
+			margin-top: ;
+			margin-bottom: -14px;
+			margin-left: 13.5%;
+			}
+			#p02 { 
+			margin-bottom: ;
+			margin-top: -14px;
+			margin-left:73%;
+			}
+			hr.center { 
+			display: block;
+  			margin-left: 14%;
+  			margin-right: 14%;
+  			border-style: solid;
+  			border-width: 1px;
+  			color: lightgray;
+			} 
+			hr.side {
+			margin-right: -24%;
+			margin-left: 14%;
+			display: block;
+  			border-style: solid;
+  			border-width: 1px;
+  			color: lightgray;
+  			}
+			hr.under {
+			margin-left:-4%;
+			margin-right: -29%;
+			display: block;
+  			border-style: solid;
+  			border-width: 1px;
+  			color: lightgray;
+			}
+		</style> 
+	</head>
+
+	<body>
+	<nav>
+		<div class="a">
+			<h2 class="logo">Brand Logo</h2>
+			<p id="p1">This is the first draft</p>
+			<p class="b"><a href="#">TEXT LINK</a></p>
+	    	<p class="b"><a href="#">TEXT LINK</a></p>
+	    	<p class="b"><a href="#">TEXT LINK</a></p>
+	    	<p class="b"><a href="#">TEXT LINK</a></p>
+		</div>
+	</nav>
+		<div class="c"></div>
+			<ul class="d">
+	    		<li class="e">
+	        	<strong>LOROM IPSUM DOLOR</strong>
+	        	<p style="margin-top: 5px">Lorem Ipsum dolor sit amet,<br>
+		    	consectator edipiscing elit. Nune non<br>
+		    	diam erat. Infringila massa ut nisi<br>
+		    	ullancoper.</p>
+				<a href="#"><span id="a01">read more ></span></a>
+				</li>
+	    		<li class="e">
+				<strong>LOROM IPSUM DOLOR</strong>
+	        	<p style="margin-top: 5px">Lorem Ipsum dolor sit amet,<br>
+		    	consectator edipiscing elit. Nune non<br>
+		    	diam erat. Infringila massa ut nisi<br>
+		    	ullancoper.</p>
+				<a href="#"><span id="a01">read more ></span></a>
+				</li>
+	    		<li class="e">
+				<strong>LOROM IPSUM DOLOR</strong>
+	        	<p style="margin-top: 5px">Lorem Ipsum dolor sit amet,<br>
+		    	consectator edipiscing elit. Nune non<br>
+		    	diam erat. Infringila massa ut nisi<br>
+		    	ullancoper.</p>
+				<a href="#"><span id="a01">read more ></span></a>
+				</li>
+        		<li class="e">
+        		<strong>LOROM IPSUM DOLOR</strong>			
+	        	<p style="margin-top: 5px">Lorem Ipsum dolor sit amet,<br>
+		    	consectator edipiscing elit. Nune non<br>
+		    	diam erat. Infringila massa ut nisi<br>
+		    	ullancoper.</p>
+				<a href="#"><span id="a01">read more ></span></a>
+				</li>
+			</ul>
+				<hr class="center">
+				<div class="g">
+					<div class="f"></div>
+					<div class="f"></div>
+					<div class="f"></div>
+				</div>
+				<link>
+					<a href="#"><span id="h02">view all our recent work here ></span></a>
+				</link>
+		</div>
+				<hr class="center">
+		<div class="i">	
+			<div class="h"></div>
+			<div class="h"></div>
+		</div>
+		<div class="i">
+			<div class="j">
+				<h3> INDONECTETUS FACILIS LEO NIBH</h3>
+				<P>This is a W<sub>3</sub>C compliant free website template from <a href="#">OS Templates.</a> For<br>
+				full terms of use of this template please read our <a href="#">website template<br>
+				license.</a><br></P>
+				<a href="#"><span style="margin-left: 79%">Read more >></span></a>
+			</div>
+			<div class="j">
+					<h3> INDONECTETUS FACILIS LEO NIBH</h3>
+					<P>You can use and modify the template for both personal and commercial<br> use. You must keep all copyright
+	 				information and credit links in the<br> template and associated files. For more html<sub>5</sub> templates 
+	 				visit <a href="#">free<br> website template.</a><br></P>
+					<a href="#"><span style="margin-left: 79%">Read more >></a></span></a>
+			</div>
+		</div>
+
+		<div class="i k">
+			<h3 id="h03">CATEGORIES</h3><hr class="side">
+			<ul class="l">
+				<li class="m"><a href="#">Free Website Templates</a>
+				</li><hr class="under">
+				<li class="m"><a href="#">Free CSS Templates</a>
+				</li><hr class="under">
+				<li class="m"><a href="#">Free XHTML Templates</a>
+				</li><hr class="under">
+				<li class="m"><a href="#">Free Web Templates</a>
+				</li><hr class="under">
+				<li class="m"><a href="#">Free Website Layouts</a>
+				</li><hr class="under">
+				<li class="m"><a href="#">Free HTML<sub>5</sub> Templates</a>
+				</li><hr class="under">
+				<li class="m"><a href="#">Free Webdesign Templates</a>
+				</li><hr class="under">
+				<li class="m"><a href="#">Free Fireworks Templates</a>
+				</li><hr class="under">
+				<li class="m"><a href="#">Free PNG Templates</a>
+				</li><hr class="under">
+				<li class="m"><a href="#">Free Website Themes</a>
+				</li><hr class="under">
+			</ul>
+		</div>
+		<div class="footer">
+			<p id="p01">Copyright &copy 2012 - All Rights Reserved - Domain Name</p>
+			<p id="p02">Templates by OS Templates</p>
+		</div>
+	</body>
+</html>
+
+	
+
+
+
